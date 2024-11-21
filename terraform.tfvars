@@ -1,11 +1,10 @@
 # Project Details
 project_name = "Opeyemi_OpenVPN_YT"
-region_name = "us-east-2"
-key_pair_name = "OpeyemiTechPro-KeyPair"
+region_name = "us-east-2" # Change to your preferred region
+key_pair_name = "OpeyemiTechPro-KeyPair" # Change to your preferred key pair name in the region selected above
 
 
 # Variables for OpenVPN Server
-# OpenVPN_instance_ami = "ami-085f9c64a9b75eed5" # Ubuntu ami
 OpenVPN_instance_type = "t2.micro"
 openvpn_user = "OpeyemiTechPro"
 

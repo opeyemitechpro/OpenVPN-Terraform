@@ -1,12 +1,9 @@
-# SecurtyGrp.tf
-
 # OpenVPN Server Security Group
 resource "aws_security_group" "openvpn_SG" {
-  # vpc_id      = aws_vpc.Opeyemi_VPC.id
   name_prefix = "${var.project_name}_openvpn_SG_"
   description = "OpenVPN Security Group"
 
-  dynamic "ingress" {
+dynamic "ingress" {
     for_each = var.openvpn_tcp_ports
     content {
       from_port   = ingress.key

@@ -2,10 +2,10 @@
 
 # Bash script to intialize OpenVPN Server
 
-# Set error trap
-set -e # Exit script immediately on first error.
+# Set error trap to exit the script immediately on first error.
+set -e 
 
-# Log all output to file 
+# Log all output to a file for reference 
 exec >> /var/log/setup_script.log 2>&1
 
 echo "Initializing script..."
@@ -25,7 +25,7 @@ echo "$PUB_IP"
 echo 
 echo "Download installation script"
 echo
-# REFER: https://github.com/angristan/openvpn-install
+# Check Agristan's repo for full details on installation script options- https://github.com/angristan/openvpn-install
 
 wget https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh -O openvpn-install.sh
 chmod +x openvpn-install.sh 
