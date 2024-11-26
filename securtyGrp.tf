@@ -1,7 +1,7 @@
 # OpenVPN Server Security Group
 resource "aws_security_group" "openvpn_SG" {
   name_prefix = "${var.project_name}_openvpn_SG_"
-  description = "OpenVPN Security Group"
+  description = "OpeyemiTechPro OpenVPN Security Group"
 
 dynamic "ingress" {
     for_each = var.openvpn_tcp_ports

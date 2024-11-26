@@ -34,3 +34,9 @@ settings/*
 
 # Ignore generated config
 generated/*
+
+# Ignore public/private key files
+*.pem
+
+# Ignore ovpn profile configuration files
+*.ovpn
