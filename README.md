@@ -4,7 +4,7 @@ This terraform configuration creates a fully functional, free and ready-to-use s
 
 ## Quick Start Guide
 
-Click here for a [Quick Start Guide](https://opeyemitech.pro/my-projects/terraform_projects/openvpn_access_server/#quick-start-guide)
+Click here for a [Quick Start Guide](https://opeyemitech.pro/my-projects/terraform_projects/openvpn_access_server/#clone-the-repository)
 
 ## Full Documentation
 
