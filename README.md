@@ -20,5 +20,5 @@ A Full documentation with step-by-step guide explaining how the complete module 
 
 ## Credits
 
-- Thanks to [Stanislas Agristan](https://github.com/angristan/openvpn-install){ target="_blank" } for the OpenVPN Installer script
-- Thanks to [Dominic Dumrauf](https://github.com/dumrauf/openvpn-terraform-install){ target="_blank" } who created a similar terraform solution using Agristan's script and inspired me 
+- Thanks to [Stanislas Agristan](https://github.com/angristan/openvpn-install){:target="_blank" } for the OpenVPN Installer script
+- Thanks to [Dominic Dumrauf](https://github.com/dumrauf/openvpn-terraform-install){:target="_blank" } who created a similar terraform solution using Agristan's script and inspired me 
